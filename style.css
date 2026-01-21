@@ -1,0 +1,474 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4% 1fr;
+}
+aside{
+    
+    border: 1px solid rgb(227, 225, 225);
+    padding: 27px 6px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 190px;
+
+}
+ img {
+   
+    height: 28px;
+    width: 28px;
+}
+ i {
+    font-size: 33px;
+    transition: all 0.3s ease;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+aside img:hover,
+aside i:hover{
+background-color: rgb(233, 226, 226);
+border-radius: 5px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+     height: 100vh;          /* full viewport height */
+    overflow-y: auto;       /* vertical scroll */
+    overflow-x: hidden;
+    padding-left: 20px;
+    gap: 10px;
+   
+}
+
+.column1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.img1 img{
+    height: 435.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img2 img{
+    height: 316.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img3 img{
+    height: 222.8px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img4 img{
+    height: 300.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img5 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img6 img{
+    height: 469.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img7 img{
+    height: 280.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img8 img{
+    height: 460.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img9 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img10 img{
+    height: 320.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+
+.column2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px;
+    
+}
+.img11 img{
+    height: 346.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img12 img{
+    height: 316.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img13 img{
+    height: 150.8px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img14 img{
+    height: 300.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img15 img{
+    height: 434.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img16 img{
+    height: 369.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img17 img{
+    height: 280.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img18 img{
+    height: 460.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img19 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img20 img{
+    height: 320.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+
+.column3{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px;
+}
+.img21 img{
+    height: 244.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img22 img{
+    height: 289.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img23 img{
+    height: 391.8px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img24 img{
+    height: 120.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img25 img{
+    height: 278.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img26 img{
+    height: 469.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img27 img{
+    height: 280.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img28 img{
+    height: 460.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img29 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img30 img{
+    height: 320.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.column4{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px; 
+}
+.img31 img{
+    height: 435.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img32 img{
+    height: 316.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img33 img{
+    height: 222.8px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img34 img{
+    height: 300.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img35 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img36 img{
+    height: 469.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img37 img{
+    height: 280.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img38 img{
+    height: 460.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img39 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img40 img{
+    height: 300.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.column5{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px;
+}
+.img41 img{
+    height: 135.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img42 img{
+    height: 456.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img43 img{
+    height: 222.8px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img44 img{
+    height: 300.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img45 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img46 img{
+    height: 469.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img47 img{
+    height: 280.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img48 img{
+    height: 129.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img49 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img50 img{
+    height: 300.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ;
+}
+.img51 img{
+    height: 470.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ;
+}
+.column6{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px;
+}
+.img61 img{
+    height: 405.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img62 img{
+    height: 456.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img63 img{
+    height: 222.8px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img64 img{
+    height: 480.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img65 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img66 img{
+    height: 469.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img67 img{
+    height: 280.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img68 img{
+    height: 460.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+.img69 img{
+    height: 396.25px;
+    width: 222.8px;
+    object-fit: cover;
+    border-radius:19px ; 
+}
+
